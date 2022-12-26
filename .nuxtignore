@@ -1,0 +1,18 @@
+# ignore page
+pages/demo.vue
+# ignore page inside ignore folder
+# pages/ignore/*.vue
+
+# ignore layout foo.vue
+# layouts/foo.vue
+# ignore layout files whose name ends with -ignore.vue
+# layouts/*-ignore.vue
+
+# ignore store baz.js
+# store/baz.js
+# ignore store files match *.test.*
+# store/ignore/*.test.*
+
+# ignore middleware files under foo folder except foo/bar.js
+# middleware/foo/*.js
+# !middleware/foo/bar.js
